@@ -1,0 +1,723 @@
+/* @font-face {
+    font-family: "hyper_blockregular";
+    src: url("./hyper_block-webfont.woff2") format("woff2"), url("./hyper_block-webfont.woff") format("woff");
+    font-weight: normal;
+    font-style: normal;
+} */
+
+@font-face {
+    font-family: "HYPER BLOCK SOLID";
+    src: url("fonts/HYPER-BLOCK-SOLID.eot");
+    src: url("fonts/HYPER-BLOCK-SOLID.eot?#iefix") format("embedded-opentype"), url("fonts/HYPER-BLOCK-SOLID.woff2") format("woff2"), url("fonts/HYPER-BLOCK-SOLID.woff") format("woff"), url("fonts/HYPER-BLOCK-SOLID.ttf") format("truetype"), url("fonts/HYPER-BLOCK-SOLID.svg#HYPER BLOCK SOLID") format("svg");
+}
+
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --title-font: "HYPER BLOCK SOLID";
+    --text-border: -1px 0px 0 #000, 1px 5px 0 #000, 5px -1px 0 #000, -1px -1px 0 #000;
+}
+
+body {
+    font-family: "Poppins", sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.7;
+    color: #000;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+ul,
+li,
+ol {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 1360px;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+    margin: 0;
+}
+
+.buble-bg {
+    background-image: url(../img/buble-bg.png);
+    background-repeat: repeat;
+    background-size: 100%;
+}
+
+.cpb-6 {
+    padding-bottom: 100px;
+}
+
+.cpy-6 {
+    padding: 100px 0;
+}
+
+
+/* ====================navigation=============/ */
+
+.header-menu {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.navigation-menu {
+    display: flex;
+    align-items: center;
+}
+
+ul.manu-ul {
+    display: flex;
+    align-items: center;
+}
+
+.social-sec {
+    display: flex;
+    align-items: center;
+}
+
+ul.social-ul {
+    display: flex;
+    align-items: center;
+}
+
+ul.social-ul li {
+    margin: 5px;
+}
+
+a.nav-link {
+    font-size: 24px;
+    text-transform: uppercase;
+    color: #fff;
+    font-weight: 600;
+    text-shadow: -1px 0px 0 #000, 1px 1px 0 #000, 1px -1px 0 #000, -1px -1px 0 #000;
+    font-family: var(--title-font);
+    cursor: pointer;
+}
+
+.wallet-btn {
+    margin-left: 40px;
+}
+
+.header {
+    position: absolute;
+    top: 0;
+    width: 100%;
+    z-index: 99;
+    padding: 20px 0;
+}
+
+
+/* ==============================hero section============ */
+
+.hero {
+    background-image: url("../img/hero-bg.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 1100px;
+    width: 100%;
+    position: relative;
+    display: flex;
+    padding-top: 250px;
+}
+
+.hero-content-area {
+    text-align: center;
+}
+
+h1.hero-title {
+    font-size: 70px;
+    font-weight: 600;
+    font-family: var(--title-font);
+    color: #fff;
+    text-shadow: var(--text-border);
+    margin-bottom: 20px;
+}
+
+p.hero-des {
+    font-size: 18px;
+    color: #fff;
+    margin-bottom: 35px;
+}
+
+.full-area {
+    background: linear-gradient( 180deg, #54e9e7 0%, #cc4ce4 25.52%, #fc4f92 47.84%, #ffad6e 71.94%, #fd80b0 100%);
+}
+
+.section-title {
+    text-align: center;
+}
+
+h2.sec-title {
+    font-size: 95px;
+    font-family: var(--title-font);
+    color: #fff;
+    text-shadow: var(--text-border);
+}
+
+.mint-form {
+    text-align: center;
+    position: relative;
+    z-index: 1;
+}
+
+.mint-form-title h2 {
+    font-size: 95px;
+    font-family: var(--title-font);
+    color: #fff;
+    text-shadow: var(--text-border);
+}
+
+.mint-form-content {
+    margin: 25px 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+button.incriment-btn {
+    width: 55px;
+    height: 55px;
+    border-radius: 50%;
+    border: none;
+    font-size: 34px;
+    display: flex;
+    justify-content: center;
+    background: #7351ff;
+    align-items: center;
+    color: #fff;
+    box-shadow: 2px 2px 1px 2px #fff;
+}
+
+span.mint-value {
+    width: 140px;
+    background: #fff;
+    height: 48px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid #000;
+    border-radius: 10px;
+    margin: 0 10px;
+    font-size: 20px;
+    font-weight: 700;
+    /* font-family: var(--title-font); */
+}
+
+p.mint-des {
+    font-size: 20px;
+    color: #fff;
+}
+
+.mint-img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    z-index: 1;
+}
+
+.tree-img {
+    position: absolute;
+    display: flex;
+    align-items: center;
+    top: 0;
+    bottom: 0;
+    left: 0;
+}
+
+.mint-section {
+    position: relative;
+}
+
+.tree-img img {
+    width: 100%;
+}
+
+.mint-footer-img {
+    position: absolute;
+    right: 0;
+    bottom: -90px;
+}
+
+
+/* ==========================road map ================== */
+
+.road-map-card {
+    background: #fff;
+    border-radius: 20px;
+    padding: 35px;
+    position: relative;
+    border: 5px solid #000;
+    height: 246px;
+}
+
+p.road-map-text {
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.road-map-img {
+    position: absolute;
+    /* top: 0; */
+    right: -30px;
+    bottom: 0;
+}
+
+.road-map-img-l {
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+}
+
+.road-map-card {
+    margin-bottom: 100px;
+    display: flex;
+    align-items: center;
+}
+
+img.img-a {
+    width: 354px;
+}
+
+img.img-b {
+    width: 400px;
+}
+
+img.img-c {
+    width: 320px;
+}
+
+img.img-d {
+    width: 330px;
+}
+
+img.img-e {
+    width: 460px;
+}
+
+
+/* =============================team-========================= */
+
+.member-details {
+    text-align: center;
+    margin-top: 10px;
+}
+
+.membar-title {
+    color: #fff;
+    font-size: 22px;
+}
+
+h4.name {
+    color: #fff;
+    font-weight: 700;
+}
+
+
+/* ================faq======================= */
+
+.question {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #fff;
+    border-radius: 10px;
+    padding: 20px;
+    border: 2px solid #000;
+    cursor: pointer;
+}
+
+.question h3 {
+    font-family: var(--title-font);
+    font-size: 30px;
+    color: #000;
+}
+
+.answer {
+    display: none;
+    font-size: 20px;
+    background: #fff;
+    border-radius: 10px;
+    padding: 20px;
+    margin-top: 10px;
+}
+
+.faq-item.active .answer {
+    display: block;
+}
+
+.faq-item {
+    margin-bottom: 30px;
+}
+
+
+/* ====================footer=================== */
+
+
+/* .footer {
+    background-image: url(../img/footer.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+} */
+
+.footer-content {
+    text-align: center;
+    margin: 92px 0;
+    position: relative;
+    z-index: 1;
+}
+
+.footer-social ul {
+    justify-content: center;
+}
+
+p.footer-des {
+    font-size: 20px;
+    color: #fff;
+    margin-top: 10px;
+}
+
+.footer-img {
+    position: absolute;
+    bottom: 0;
+    /* top: 0; */
+    left: 0;
+    right: 0;
+    z-index: 0;
+}
+
+.footer {
+    position: relative;
+}
+
+.footer-img img {
+    width: 100%;
+    z-index: -1;
+}
+
+.active.header {
+    background: #884376;
+}
+
+.both-img img {
+    width: 100%;
+}
+
+.team-img img {
+    width: 100%;
+}
+
+.nav-btn {
+    display: none;
+}
+
+button.close-btn {
+    width: 40px;
+    height: 40px;
+    border: none;
+    border-radius: 50%;
+    font-weight: 700;
+    font-size: 20px;
+    justify-content: center;
+    align-items: center;
+    color: #7351ff;
+    display: none;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+}
+
+.navigation-menu.active {
+    right: 0;
+    text-align: center;
+}
+
+.mint-img img {
+    width: 65%;
+}
+
+
+/* ========================animation================ */
+
+a.social-link {
+    transition: 0.3s;
+    display: block;
+}
+
+a.social-link:hover {
+    transform: translateY(-10px);
+}
+
+a.wallet-link {
+    transition: 0.3s;
+    display: inline-block;
+    background: #7351ff;
+    color: #fff;
+    padding: 8px 20px;
+    border-radius: 17px;
+    text-decoration: none;
+    font-size: 20px;
+    text-transform: uppercase;
+    font-weight: 700;
+    box-shadow: 5px 3px 0px 1px #fff;
+    font-family: var(--title-font);
+    cursor: pointer;
+}
+
+a.wallet-link:hover {
+    transform: scale(1.1);
+}
+
+a.discord-btn {
+    transition: 0.3s;
+    display: inline-block;
+}
+
+a.discord-btn:hover {
+    transform: scale(1.1);
+}
+
+.mint-btn {
+    transition: 0.3s;
+    display: inline-block;
+    cursor: pointer;
+}
+
+.mint-btn:hover {
+    transform: scale(1.1);
+}
+
+a.nav-link:hover {
+    color: #7351ff;
+}
+
+.cloud-img {
+    position: absolute;
+    right: 100px;
+    top: -100px;
+}
+
+.both-img {
+    position: relative;
+    margin-top: 60px;
+}
+
+.mobile-logo {
+    display: none;
+}
+
+@media screen and (max-width: 1200px) {
+    .mobile-logo {
+        display: block;
+    }
+    .navigation-menu {
+        display: block;
+        height: 100vh;
+        width: 100%;
+        position: fixed;
+        top: 0;
+        bottom: 0;
+        background: linear-gradient( 180deg, #54e9e7 0%, #cc4ce4 25.52%, #fc4f92 47.84%, #ffad6e 71.94%, #fd80b0 100%);
+        padding: 50px 15px;
+        right: -100%;
+        transition: 0.3s;
+    }
+    ul.manu-ul {
+        display: block;
+    }
+    .social-sec {
+        display: block;
+    }
+    .wallet-btn {
+        margin-left: 0;
+        margin-top: 10px;
+    }
+    .nav-btn {
+        display: block;
+    }
+    button.close-btn {
+        display: block;
+    }
+    a.logo-link img {
+        width: 150px;
+    }
+    .footer-content {
+        text-align: center;
+        margin: 60px 0;
+    }
+    .hero {
+        /* height: 1016px; */
+        padding-top: 117px;
+    }
+    ul.social-ul {
+        justify-content: center;
+    }
+    .active.header {
+        background: none;
+    }
+    .desktop {
+        display: none;
+    }
+    .header-menu {
+        justify-content: end;
+    }
+}
+
+@media screen and (max-width: 992px) {
+    .hero {
+        height: 1207px;
+    }
+    .tree-img img {
+        display: none;
+    }
+    .hero {
+        padding-top: 150px;
+    }
+    .road-map-img {
+        position: initial;
+    }
+    .road-map-card {
+        height: auto;
+        justify-content: center;
+        text-align: center;
+    }
+    .road-map-img-l {
+        position: initial;
+    }
+    .col-revers {
+        flex-direction: column-reverse;
+        text-align: center;
+    }
+    .road-map-img-l,
+    .road-map-img {
+        margin-bottom: 30px;
+    }
+    .footer-content {
+        text-align: center;
+        margin: 60px 0;
+    }
+    .cloud-img {
+        position: absolute;
+        right: 0;
+        top: -50px;
+        display: flex;
+        justify-content: end;
+        align-items: center;
+    }
+    .cloud-img img {
+        width: 50%;
+    }
+    .both-img {
+        margin-top: 50px;
+    }
+    .mint-footer-img {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    h2.sec-title {
+        font-size: 50px;
+    }
+    h1.hero-title {
+        font-size: 50px;
+    }
+    .mint-form-title h2 {
+        font-size: 50px;
+    }
+    img.img-e {
+        width: 60%;
+    }
+    img.img-d {
+        width: 60%;
+    }
+    img.img-c {
+        width: 60%;
+    }
+    img.img-b {
+        width: 60%;
+    }
+    img.img-a {
+        width: 60%;
+    }
+    .question h3 {
+        font-size: 20px;
+    }
+    .footer-content {
+        text-align: center;
+        margin-top: 45px;
+        margin-bottom: 60px;
+    }
+    br {
+        display: none;
+    }
+    hero {
+        height: 850px;
+    }
+    p.hero-des {
+        font-size: 15px;
+    }
+    p.road-map-text {
+        font-size: 16px;
+        font-weight: 600;
+    }
+    .road-map-card {
+        margin-bottom: 20px;
+        padding: 10px;
+    }
+    .cpy-6 {
+        padding: 50px 0;
+    }
+    .cpb-6 {
+        padding-bottom: 50px;
+    }
+}
+
+.video-content video {
+    width: 100%;
+    border-radius: 20px;
+    height: 100%;
+    border: 10px solid #fff;
+}
+
+.video {
+    margin: 100px 0;
+}
+
+a.dev-link {
+    text-decoration: none;
+    font-weight: 700;
+    margin-left: 10px;
+    color: #fff;
+    transition: 0.3s;
+}
+
+a.dev-link:hover {
+    color: #3372f2;
+}
+
+img.nft-logo {
+    width: 35px;
+    margin-right: 10px;
+}
