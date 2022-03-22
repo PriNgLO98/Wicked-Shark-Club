@@ -1,0 +1,1 @@
+[![Netlify Status](https://api.netlify.com/api/v1/badges/f510dbb5-88aa-4add-9491-3235cf920fdd/deploy-status)](https://app.netlify.com/sites/admiring-shirley-3980bc/deploys)
