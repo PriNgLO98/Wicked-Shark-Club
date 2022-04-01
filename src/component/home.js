@@ -814,7 +814,7 @@ function Home() {
                     </li>
                     <li>
                       <a
-                        href="https://www.instagram.com/wickedsharkclub"
+                        href="https://www.instagram.com/wickedsharkclub_nft"
                         className="social-link"
                       >
                         <svg
@@ -1343,7 +1343,7 @@ function Home() {
                         </li>
                         <li>
                           <a
-                            href="https://www.instagram.com/wickedsharkclub"
+                            href="https://www.instagram.com/wickedsharkclub_nft"
                             className="social-link"
                           >
                             <svg
