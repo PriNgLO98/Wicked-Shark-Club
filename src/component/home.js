@@ -959,7 +959,7 @@ function Home() {
               <div className="container">
                 <div className="row">
                   <div className="section-title mb-5">
-                    <h2 className="sec-title">MINTING PAGE</h2>
+                    <h2 className="sec-title">10,000 SHARKS</h2>
                   </div>
                 </div>
                 <div className="row">
@@ -971,40 +971,19 @@ function Home() {
                   <div className="col-xl-5 col-lg-6 col-md-12 mb-4">
                     <div className="mint-form" data-aos="fade-up">
                       <div className="mint-form-title">
-                        <h2>{totalMinted}/10,000</h2>
+                        <h2>LISTED</h2>
+                        <h2>ON OPENSEA</h2>
                       </div>
-                      <div className="mint-form-content">
-                        <button
-                          className="incriment-btn"
-                          onClick={() => {
-                            if (value > 1) {
-                              setValue(value - 1);
-                            }
-                          }}
-                        >
-                          -
-                        </button>
-                        <span className="mint-value">{value}</span>
-                        <button
-                          className="incriment-btn"
-                          onClick={() => {
-                            if (value < 2) {
-                              setValue(value + 1);
-                            }
-                          }}
-                        >
-                          +
-                        </button>
-                      </div>
-
                       <div className="mb-4">
                         <div className="mint-btn">
-                          <a className="wallet-link">Coming soon</a>
+                        <a
+                            href="https://opensea.io/collection/wicked-shark-club"
+                           className="wallet-link">BUY NOW</a>
                         </div>
                       </div>
 
                       <p className="mint-des">
-                        Minting Date Will Be Announced Soon ..
+                        Don't miss the whitelist to get your shark at a lower price 
                       </p>
                     </div>
                   </div>
@@ -1090,8 +1069,7 @@ function Home() {
                           <div className="row col-revers">
                             <div className="col-lg-7">
                               <p className="road-map-text">
-                                After launch we will be having a lot giveaways
-                                in our Discord server.
+                                After launch we will be having a lot giveaways in our Discord server.
                               </p>
                             </div>
                             <div className="col-lg-5">
